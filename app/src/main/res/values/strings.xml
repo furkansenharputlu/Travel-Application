@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gezdir</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="match">EŞLEŞTİR</string>
+    <string name="choose">SEÇ</string>
+    <string name="start">BAŞLANGIÇ</string>
+    <string name="add">EKLE</string>
+</resources>

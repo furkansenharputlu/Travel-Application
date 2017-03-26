@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9493f008850469ed3fab9b28658919562882aed">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.2.0_434cfe2992719f1477609d45784542e4c6f3d103/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_ba89b9e4611d8212c882d7c2a5f7ec55fdcb8614/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.2.0_f76388aa2042b0e366f650664e3dce271cb8cab1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.2.0_ca27575c7aa1ef0b65dffd51ed5f1e9adf6f0bdb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.2.0_fc4df05c46788ced72a2bed2edb43f242b7b99e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_bf1c4e76576f3f129a4572a7a21d3f0a25dd1bed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.2.0_190359aa1322d1ec7efb3238ef743a274a0757c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.2.0_9869914f623daa93493d0fdfcbda122b98d4c76e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.2.0_bebbda72ec051e86c199a4242124024af81931e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.2.0_35d9d8cf490931de96868f384d1316823fd70fbb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94fca868854457ede6df15c902938468c71d579e">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.2.0_61aecfa19f5bcefe48273b35b0b37549640f9f0b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.2.0_5634b028b130006bb07dda1aa6df60ddedcfddc5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.2.0_9228d6e558f5714f7889979683a2d6536928dd09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.2.0_7e44efea4b52f8021c472983d9733ca3dc79b0cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_0f4ad8b87748c7e343f4c49120fece9350af3219/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-10.2.0_0c87addad776f3931274d73f0181b68e86389b08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.2.0_fc1ee9ac30d9b9cf041ee1b65ef1cc806d4eb502/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.0_2a668995c91c6706240bc2ecdbaac1794aa06e3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_beafca263a753a19e45e8f39ebd2f8de500a71c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.2.0_2bc3849a6e2b0212bbad7b7e24e2b22fdbf287dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.2.0_919827ef0c22366b36579eabbd7d8a49027b3323/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_3652a08e56d0797aa0124afd37a5c67cfc4224b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.2.0_12ac774f65e8a0e5ca53f72bffcf7b9569036913/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.2.0_d372360aacbe0ba4fef816526dc02cbc6f8c11c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.2.0_e8b4da9cd69383d50415fb6eb1885f538bb2042d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.2.0_47133842dc9287e2ae2829d3d085fb57ccbbb42e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.2.0_bcde7c5ad35e9b0c77187f8738d0054f9ee5a3bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.2.0_11f82a21225cb6e60d09293eb1413e93b7c99b4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_202fb302bf10d57b840f1200b7f20d5dfebdef8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="90270132a5f1a33584f453c571257dd35e728201">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.2.0_3db8a0e9cca167bcb072a32a22ff96a1cc9d183a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.2.0_c8e743ac5b78ca0af99aea637d6b245d7128c2f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.2.0_6c6793b84d06f4b25263861aea5d6244f019f3b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.2.0_8ef9648e679348b060b9602c630175af300f9f06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.2.0_f62d84eb3496ff189c63d631aece867a10e099f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.2.0_61f7365276fc0bf1c0526a8cdcf4d52398919d5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_53e8066894e191f9160cebd54cc8605d3d93105f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_cf008a4da247de6fa7fe67e5580b21fbce337eb5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfb10b61af94ab316dd974cc3be8fe354253038e">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b38bc6fdcd724c099499c38b6dfdb16fa264ab47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.2.0_851769c9a5a63bdec52a2d49c40cbf469617e3a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_e13676f64c1adba75d30ae2e6ad270aa6e8df028/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.2.0_c3af63755caf37b73ad2b8a34a87afd7c34f9ad5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.2.0_1b5c2f9aa44116429a986a838eb15b7523238b63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.2.0_f477977b5e3e236a4beb351e0021acbc5bd276fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.2.0_b7c35ee02fe7402115897db8117a021ebce208a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.2.0_89deda1720e38d4459895de520ce8814f6c3f634/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_45df95e7e492e65b04574e6e3e77f32c2b954ac1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.2.0_273842d6100ed80b6db7f58374ac70e4eebe705d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f4483afd050f3be12db7838422309446a45daa1">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.2.0_7dfbf156683b7ce0435942b9bc2081375eaac577/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.2.0_12e3c18f5edc2a46da57b1c597010d02b15545f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_5d09e90f76ae1849850e659f9d8dd08ed40b0f77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_95e2d73edf1a52426d9ef0af1c295fe5c23a889d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.2.0_ccc0e1697106dd3bcfbcdfc4c48df9d1716346c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.2.0_0c2ec4febcba90faec3aa6682818c92c14cba6e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.2.0_1b621cfad0c4df505f7e805311e4cdc7ddfdcd96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_57034535e74ed4124d40b72dc5d307b8130b9204/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.2.0_d34331f058aa73aa4489d280ea1221a10fc7ae4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.2.0_fe4aa54d4e4e8ecd8d46fba671fb19f6653bafe3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.2.0_19855051be62f6197b6a4705e2da9cedc12bbbff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.2.0_bf958cafe398c2ed328bdb38182bae535e581516/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_062b44c98de796ac3f3e127d0d2b8ae84ca6a94a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="059f639ccb6027420ea459f99708169ea3f5dba7">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_75f120f3fc21c0921eaa2d0d6a9278183ebfc493/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.2.0_2e758a30c853dc1a74f45a61c083a83d1f2efbe2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.2.0_9c314e5e2d9bec22931313bbbf04accc5e92485a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.2.0_0e9b6d9c10670852bec45d73d7e0ebde487c2cff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.2.0_68701fe58e56815df8d05c1024dae7a38b61846b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_1dc4832b0447ddf4f995ea317b8e7008f4274026/classes.dex" />
+    </item>
+
+</items>
