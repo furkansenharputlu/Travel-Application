@@ -2,4 +2,6 @@
 <resources>
     <dimen name="searchview_padding">10dp</dimen>
     <dimen name="recyclerview_height">65dp</dimen>
+    <dimen name="generalPadding">12dp</dimen>
+
 </resources>

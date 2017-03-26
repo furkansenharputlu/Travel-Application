@@ -1,5 +1,6 @@
 package com.harputyazilim.gezdir;
 
+import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.location.Location;
@@ -8,6 +9,7 @@ import android.provider.SyncStateContract;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -15,18 +17,21 @@ import android.support.v7.widget.RecyclerView;
 import android.app.SearchManager;
 import android.view.LayoutInflater;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.SearchView;
 import android.widget.SearchView.OnQueryTextListener;
 import android.util.Log;
 import android.view.View;
+import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.NetworkResponse;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -34,6 +39,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.HttpHeaderParser;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.JsonRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.android.gms.common.ConnectionResult;
@@ -62,6 +69,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
+import java.util.Random;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener, View.OnClickListener, GoogleMap.InfoWindowAdapter {
@@ -79,10 +87,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private ToggleButton startAndFinish;
     private LinearLayout timeManager;
     private boolean turnPosition;
-    private static final String TAG="MyTag";
+    private SeekBar radius;
+    private double radiusValue;
+
     Event tripEvent = new Event();
     RequestQueue queue;
     View infoWindow;
+
+
+    private static final String TAG="MyTag";
+    private static final int MAX_RADIUS=25;
 
 
     @Override
@@ -107,6 +121,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         chooseTime = (Button) findViewById(R.id.chooseTime);
         back = (Button) findViewById(R.id.back);
         match= (Button) findViewById(R.id.match);
+        radius = (SeekBar) findViewById(R.id.radius);
+
         startAndFinish = (ToggleButton) findViewById(R.id.startAndFinish);
         startAndFinish.setTextOff("BAŞLANGIÇ");
         startAndFinish.setTextOn("BİTİŞ");
@@ -135,7 +151,26 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     Toast.makeText(getApplicationContext(), "Google API Client  not connected", Toast.LENGTH_SHORT).show();
 
                 }
+                mRecyclerView.setVisibility(View.VISIBLE);
                 return false;
+            }
+        });
+        radius.setMax(MAX_RADIUS);
+        radius.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                radiusValue=progress;
+                Log.d("FS","radius "+radiusValue);
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
             }
         });
 
@@ -282,6 +317,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 break;
             case R.id.search:
                 mRecyclerView.setVisibility(View.VISIBLE);
+                searchView.onActionViewExpanded();
                 break;
             case R.id.back:
                 timeManager.animate()
@@ -291,81 +327,87 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 break;
             case R.id.match:
                 postEvent();
+
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .add(R.id.layout_main, new Matches())
+                        .addToBackStack(null)
+                        .commit();
+
+
         }
+
+    }
+
+    public void match(){
 
     }
 
     public void postEvent(){
         queue = Volley.newRequestQueue(this);
-        String url = "http://la-posizione.herokuapp.com/events";
+        String url = "http://192.168.88.149:3000/events/addEvent";
 
         JSONObject jsonBody = new JSONObject();
         try {
-            jsonBody.put("userId", 1);
+            jsonBody.put("userId", new Random().nextInt(10000));
             jsonBody.put("startTime", tripEvent.getStartTime());
             jsonBody.put("endTime", tripEvent.getEndTime());
 
-            JSONArray points = new JSONArray();
-            JSONObject point1 = new JSONObject();
-            point1.put("latitude","30.0000");
-            point1.put("longitude","31.0000");
-            JSONObject point2 = new JSONObject();
-            point2.put("latitude","18.0000");
-            point2.put("longitude","23.0000");
-            points.put(point1);
-            points.put(point2);
 
-            jsonBody.put("points",points);
+            JSONArray coordinates = new JSONArray();
+            JSONArray points = new JSONArray();
+            for(int i=0;i<tripEvent.coordinates.size();i++){
+
+                JSONArray point= new JSONArray();
+                point.put(tripEvent.coordinates.get(i).first);
+                point.put(tripEvent.coordinates.get(i).second);
+
+                points.put(point);
+            }
+
+
+            //last pair of coordinate pairs will be first coordinate point so that we can draw polynome
+            if(tripEvent.coordinates.size()>=3) {
+                JSONArray point = new JSONArray();
+                point.put(tripEvent.coordinates.get(0).first);
+                point.put(tripEvent.coordinates.get(0).second);
+                points.put(point);
+            }
+
+            coordinates.put(points);
+            jsonBody.put("coordinates", coordinates);
+            jsonBody.put("radius",radiusValue);
+
+            System.out.println(jsonBody.toString());
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
 
-        final String requestBody = jsonBody.toString();
 
 // Request a string response from the provided URL.
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
-                new Response.Listener<String>() {
+        JsonObjectRequest jsObjRequest = new JsonObjectRequest
+                (Request.Method.POST, url, jsonBody, new Response.Listener<JSONObject>() {
+
                     @Override
-                    public void onResponse(String response) {
-                        // Display the first 500 characters of the response string.
-                        //mTextView.setText("Response is: " + response.substring(0, 300));
-                        Log.d("FS", response);
+                    public void onResponse(JSONObject response) {
+                       // mTxtDisplay.setText("Response: " + response.toString());
+                        Log.d("VOLLEY", response.toString());
                     }
                 }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-            }
-        }) {
-            @Override
-            public String getBodyContentType() {
-                return "application/json; charset=utf-8";
-            }
 
-            @Override
-            public byte[] getBody() throws AuthFailureError {
-                try {
-                    return requestBody == null ? null : requestBody.getBytes("utf-8");
-                } catch (UnsupportedEncodingException uee) {
-                    VolleyLog.wtf("Unsupported Encoding while trying to get the bytes of %s using %s", requestBody, "utf-8");
-                    return null;
-                }
-            }
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        // TODO Auto-generated method stub
+                        Log.e("VOLLEY", error.getMessage());
+                    }
+                });
 
-            @Override
-            protected Response<String> parseNetworkResponse(NetworkResponse response) {
-                String responseString = "";
-                if (response != null) {
-                    responseString = String.valueOf(response.statusCode);
-                    // can get more details such as response.headers
-                }
-                return Response.success(responseString, HttpHeaderParser.parseCacheHeaders(response));
-            }
-        };
+
 
         // Set the tag on the request.
-        stringRequest.setTag(TAG);
 // Add the request to the RequestQueue.
-        queue.add(stringRequest);
+        queue.add(jsObjRequest);
     }
 
     @Override
@@ -410,7 +452,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
             @Override
             public void onInfoWindowClick(Marker marker) {
-                Log.d("FS","ekleeeeeee");
+                tripEvent.addCoordinates(marker.getPosition().latitude,marker.getPosition().longitude);
+                marker.hideInfoWindow();
             }
         });
 

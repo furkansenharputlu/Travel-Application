@@ -340,7 +340,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="cfb10b61af94ab316dd974cc3be8fe354253038e">
+        sha1="055be3121978e73dd150dfe919090ab36ade2893">
         <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b38bc6fdcd724c099499c38b6dfdb16fa264ab47/classes.dex" />
     </item>
     <item
@@ -547,7 +547,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="059f639ccb6027420ea459f99708169ea3f5dba7">
+        sha1="a472d56e219109715fb8d0329024bfc262f54f54">
         <dex dex="/Users/furkan/AndroidStudioProjects/Gezdir/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_75f120f3fc21c0921eaa2d0d6a9278183ebfc493/classes.dex" />
     </item>
     <item

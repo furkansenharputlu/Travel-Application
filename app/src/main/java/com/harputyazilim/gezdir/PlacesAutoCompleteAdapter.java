@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Filter;
 import android.widget.Filterable;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -176,12 +177,12 @@ public class PlacesAutoCompleteAdapter
 
     public class PredictionHolder extends RecyclerView.ViewHolder {
         private TextView mPrediction;
-        private RelativeLayout mRow;
+        private LinearLayout mRow;
         public PredictionHolder(View itemView) {
 
             super(itemView);
             mPrediction = (TextView) itemView.findViewById(R.id.address);
-            mRow=(RelativeLayout)itemView.findViewById(R.id.predictedRow);
+            mRow=(LinearLayout)itemView.findViewById(R.id.predictedRow);
         }
 
     }
